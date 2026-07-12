@@ -1649,7 +1649,7 @@
       "nameLabel": "Nome",
       "namePlaceholder": "ex.: automação do Zapier",
       "scopesLabel": "Escopos",
-      "scopesHint": "Uma chave sem escopos ainda pode chamar <code className=\"text-[11px]\">GET /api/v1/me</code> para verificar se funciona.",
+      "scopesHint": "Uma chave sem escopos ainda pode chamar <code>GET /api/v1/me</code> para verificar se funciona.",
       "cancel": "Cancelar",
       "creating": "Criando…",
       "createKey": "Criar chave",
@@ -1662,7 +1662,16 @@
       "newKeyTitle": "Nova chave de API",
       "newKeyDesc": "Dê um nome de acordo com a integração que a usará e conceda apenas os escopos necessários.",
       "done": "Concluído",
-      "networkError": "Não foi possível conectar ao servidor"
+      "networkError": "Não foi possível conectar ao servidor",
+      "scopeDesc": {
+        "messages:send": "Enviar mensagens do WhatsApp",
+        "messages:read": "Ler mensagens e o status de entrega",
+        "contacts:read": "Listar e ler contatos",
+        "contacts:write": "Criar e atualizar contatos",
+        "conversations:read": "Listar e ler conversas",
+        "broadcasts:send": "Disparar campanhas de transmissão",
+        "webhooks:manage": "Registrar e gerenciar webhooks de eventos de saída"
+      }
     },
     "deals": {
       "title": "Negócios e moeda",
